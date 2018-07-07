@@ -153,7 +153,7 @@ echo ""
 echo "Timestamp: $(date)"
 echo ""
 echo "Begin the Git Update ----------"
-"./D Settings/05 ignore files.txt"
+#"./D Settings/05 ignore files.txt"
 git add .
 git checkout -b $newbranch
 git commit -F "./D Settings/03 commit message.txt"
