@@ -1,9 +1,9 @@
 Project Name: Workspace 07 07 
 Project State: initialization 
 Project Directory: /c/Users/DurfTop/Desktop/workspace testing/workspace test 2018 07 07 
-Last Update: Sat, Jul  7, 2018 12:38:33 PM 
-Branch Name: work_2018_07_0008 
-Branch UID: 0008 
+Last Update: Sat, Jul  7, 2018 12:37:22 PM 
+Branch Name: work_2018_07_0007 
+Branch UID: 0007 
  
 Last Time I Worked On This Project : 
 reminder-no punctuations that could be escape terms 
@@ -16,4 +16,4 @@ reminder-no punctuations that could be escape terms
  
  
  
-Time of Commit: Sat, Jul  7, 2018 12:39:15 PM
+Time of Commit: Sat, Jul  7, 2018 12:38:29 PM
