@@ -28,8 +28,8 @@
 ###############################
 #
 metafile="meta.csv"
-outputfile="02 commit message template.txt"
-outputfile2="03 commit message.txt"
+outputfile="01 commit message template.txt"
+outputfile2="02 commit message.txt"
 settingsfile="03 input git settings thodurfee.csv"
 #
 #
@@ -132,12 +132,12 @@ cd "./00 commit logs/"
 # 05: Connect to Git #
 ######################
 #
+touch .gitignore
 git add .
 git commit -m "first commit at $(date)"
 git remote add origin $gitorigin
 echo $gitorigin
 git push -u $gitorigin master
-touch .gitignore
 ############
 # 04: Exit #
 ############
