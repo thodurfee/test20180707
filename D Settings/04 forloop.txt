@@ -1,0 +1,9 @@
+#declare -a mylist="$(thislist)" 
+mylist=$(cat "01 ignore files.txt")
+for thisignore in in `cat $mylist[@]`
+do
+	echo $thisignore
+	echo "$thisignore" >> .gitignore
+	echo "git rm --cached $thisignore"
+	git rm --cached "$thisignore"
+done

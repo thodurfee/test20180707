@@ -1,0 +1,6 @@
+#!/bin/bash
+#
+#
+#
+mv meta.csv "../D Settings"
+mv "./00 commit logs/" "../D Settings/"

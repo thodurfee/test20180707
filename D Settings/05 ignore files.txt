@@ -1,0 +1,12 @@
+echo "####	####	####	####	####	####	####" > .gitignore
+declare -a ignorelist=(\""./F Analysis/01 Data/originals/*"\" \""./F Analysis/01 Data/working version/*"\")
+for myignore in "${ignorelist[@]}"
+#for myignore in `cat "06 ignore files.txt"`
+do
+	echo "############################################################"
+	echo $myignore
+	echo "$myignore" >> .gitignore
+	echo "git rm --cached $myignore"
+	git rm --cached "$myignore"
+done
+# it is possible that this is working, but git reports that there is an error because the folder has already been added to the ignore list

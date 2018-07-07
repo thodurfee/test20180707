@@ -1,0 +1,2 @@
+'".\F Analysis\01 Data\originals\testfile.txt"'
+'".\F Analysis\01 Data\originals\usa_00060.dta.gz"'
